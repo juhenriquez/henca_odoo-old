@@ -12,3 +12,8 @@
 	path = juhenriquez/ncf_subscriptions
 	url = git@github.com:juhenriquez/ncf_subscriptions.git
 	branch = master
+
+[submodule "juhenriquez/dgii_reports"]
+	path = juhenriquez/dgii_reports
+	url = git@github.com:juhenriquez/dgii_reports.git
+	branch = master
