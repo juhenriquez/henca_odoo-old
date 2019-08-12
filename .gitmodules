@@ -7,3 +7,8 @@
 	path = odoo-dominicana/l10n-dominicana
 	url = git@github.com:odoo-dominicana/l10n-dominicana.git
 	branch = 12.0
+
+[submodule "juhenriquez/ncf_subscriptions"]
+	path = juhenriquez/ncf_subscriptions
+	url = git@github.com:juhenriquez/ncf_subscriptions.git
+	branch = master
