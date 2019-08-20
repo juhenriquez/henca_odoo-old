@@ -17,3 +17,8 @@
 	path = juhenriquez/dgii_reports
 	url = git@github.com:juhenriquez/dgii_reports.git
 	branch = master
+
+[submodule "OCA/website"]
+	path = OCA/website
+	url = git@github.com:OCA/website.git
+	branch = 12.0
