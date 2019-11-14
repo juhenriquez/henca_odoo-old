@@ -1,8 +1,3 @@
-[submodule "juhenriquez/l10n-dominicana"]
-	path = juhenriquez/l10n-dominicana
-	url = git@github.com:juhenriquez/l10n-dominicana.git
-	branch = 12.0
-
 [submodule "odoo-dominicana/l10n-dominicana"]
 	path = odoo-dominicana/l10n-dominicana
 	url = git@github.com:odoo-dominicana/l10n-dominicana.git
@@ -11,11 +6,6 @@
 [submodule "juhenriquez/ncf_subscriptions"]
 	path = juhenriquez/ncf_subscriptions
 	url = git@github.com:juhenriquez/ncf_subscriptions.git
-	branch = master
-
-[submodule "juhenriquez/dgii_reports"]
-	path = juhenriquez/dgii_reports
-	url = git@github.com:juhenriquez/dgii_reports.git
 	branch = master
 
 [submodule "OCA/website"]
