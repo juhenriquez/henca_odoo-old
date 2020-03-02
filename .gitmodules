@@ -18,7 +18,3 @@
 	url = git@github.com:indexa-git/external_service_addons.git
 	branch = 12.0
 
-[submodule "juhenriquez/send_payment_by_email"]
-	path = juhenriquez/send_payment_by_email
-	url = git@github.com:juhenriquez/send_payment_by_email.git
-	branch = master
