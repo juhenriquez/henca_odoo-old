@@ -23,3 +23,8 @@
 	path = juhenriquez/send_payment_by_email
 	url = git@github.com:juhenriquez/send_payment_by_email.git
 	branch = master
+
+[submodule "OCA/web"]
+	path = OCA/web
+	url = git@github.com:OCA/web.git
+	branch = 12.0
