@@ -22,3 +22,8 @@
 	path = OCA/web
 	url = git@github.com:OCA/web.git
 	branch = 12.0
+
+[submodule "indexa-git/external_service_addons"]
+	path = indexa-git/external_service_addons
+	url = git@github.com:indexa-git/external_service_addons.git
+	branch = 12.0
