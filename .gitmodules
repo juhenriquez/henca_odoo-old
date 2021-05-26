@@ -27,3 +27,8 @@
 	path = indexa-git/external_service_addons
 	url = git@github.com:indexa-git/external_service_addons.git
 	branch = 12.0
+
+[submodule "itpp-labs/sync-addons"]
+	path = itpp-labs/sync-addons
+	url = git@github.com:itpp-labs/sync-addons.git
+	branch = 12.0
