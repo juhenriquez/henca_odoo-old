@@ -1,2 +1,2 @@
 # henca_odoo
-test
+Henca production instance
