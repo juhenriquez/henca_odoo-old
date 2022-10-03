@@ -1,16 +1,23 @@
-from odoo import models, fields
+from odoo import models, fields, _
 
 
 class AccountMove(models.Model):
     _inherit = 'account.move'
 
-    def action_invoice_register_payment(self):
-        return self.env['account.payment'].with_context(
-            active_ids=self.ids,
-            active_model='account.move',
-            active_id=self.id,
-            sent_email=True
-        ).action_register_payment()
+    def action_register_payment(self):
+        return {
+            'name': _('Register Payment'),
+            'res_model': 'account.payment.register',
+            'view_mode': 'form',
+            'context': {
+                'active_model': 'account.move',
+                'active_ids': self.ids,
+                'active_id': self.id,
+                'sent_email': True,
+            },
+            'target': 'new',
+            'type': 'ir.actions.act_window',
+        }
 
 
 class AccountPayment(models.Model):
@@ -39,7 +46,7 @@ class AccountPayment(models.Model):
         return res
 
 
-class AccountPaymentRegister(models.Model):
+class AccountPaymentRegister(models.TransientModel):
     _inherit = 'account.payment.register'
 
     sent_email = fields.Boolean(
@@ -49,7 +56,7 @@ class AccountPaymentRegister(models.Model):
         string="Sent Email..?"
     )
 
-    def get_payme_prepare_payment_valsnts_vals(self, invoices):
-        res = super(AccountPaymentRegister, self)._prepare_payment_vals(invoices)
+    def _create_payment_vals_from_batch(self, batch_result):
+        res = super(AccountPaymentRegister, self)._create_payment_vals_from_batch(batch_result)
         res.update({'sent_email': self.sent_email})
         return res
