@@ -45,18 +45,3 @@ class AccountPayment(models.Model):
 
         return res
 
-
-class AccountPaymentRegister(models.TransientModel):
-    _inherit = 'account.payment.register'
-
-    sent_email = fields.Boolean(
-        default=False,
-        copy=False,
-        help="It indicates that the account payment has been sent.",
-        string="Sent Email..?"
-    )
-
-    def _create_payment_vals_from_batch(self, batch_result):
-        res = super(AccountPaymentRegister, self)._create_payment_vals_from_batch(batch_result)
-        res.update({'sent_email': self.sent_email})
-        return res
