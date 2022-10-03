@@ -18,3 +18,7 @@
 	path = sync-addons
 	url = git@github.com:itpp-labs/sync-addons.git
 	branch = 15.0
+[submodule "OCA/contact"]
+	path = OCA/contact
+	url = git@github.com:OCA/partner-contact.git
+	branch = 15.0
