@@ -11,7 +11,7 @@
 [submodule "OCA/website"]
 	path = OCA/website
 	url = git@github.com:OCA/website.git
-	branch = 12.0
+	branch = 15.0
 
 [submodule "juhenriquez/send_payment_by_email"]
 	path = juhenriquez/send_payment_by_email
@@ -21,7 +21,7 @@
 [submodule "OCA/web"]
 	path = OCA/web
 	url = git@github.com:OCA/web.git
-	branch = 12.0
+	branch = 15.0
 
 [submodule "indexa-git/external_service_addons"]
 	path = indexa-git/external_service_addons
@@ -32,3 +32,15 @@
 	path = itpp-labs/sync-addons
 	url = git@github.com:itpp-labs/sync-addons.git
 	branch = 12.0
+[submodule "l10n-dominicana"]
+	path = l10n-dominicana
+	url = git@github.com:yasmanycastillo/l10n-dominicana.git
+	branch = 15.0
+[submodule "external-service-addons"]
+	path = external-service-addons
+	url = git@github.com:indexa-git/external-service-addons.git
+	branch = 15.0
+[submodule "oca"]
+	path = oca
+	url = git@github.com:OCA/website.git
+	branch = 15.0
