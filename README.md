@@ -1,2 +1,2 @@
 # henca_odoo
-Henca production instance.
+Henca production instance
