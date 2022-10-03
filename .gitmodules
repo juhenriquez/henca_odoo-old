@@ -1,37 +1,11 @@
-[submodule "odoo-dominicana/l10n-dominicana"]
-	path = odoo-dominicana/l10n-dominicana
-	url = git@github.com:odoo-dominicana/l10n-dominicana.git
-	branch = 12.0
-
-[submodule "juhenriquez/ncf_subscriptions"]
-	path = juhenriquez/ncf_subscriptions
-	url = git@github.com:juhenriquez/ncf_subscriptions.git
-	branch = master
-
 [submodule "OCA/website"]
 	path = OCA/website
 	url = git@github.com:OCA/website.git
 	branch = 15.0
-
-[submodule "juhenriquez/send_payment_by_email"]
-	path = juhenriquez/send_payment_by_email
-	url = git@github.com:juhenriquez/send_payment_by_email.git
-	branch = master
-
 [submodule "OCA/web"]
 	path = OCA/web
 	url = git@github.com:OCA/web.git
 	branch = 15.0
-
-[submodule "indexa-git/external_service_addons"]
-	path = indexa-git/external_service_addons
-	url = git@github.com:indexa-git/external_service_addons.git
-	branch = 12.0
-
-[submodule "itpp-labs/sync-addons"]
-	path = itpp-labs/sync-addons
-	url = git@github.com:itpp-labs/sync-addons.git
-	branch = 12.0
 [submodule "l10n-dominicana"]
 	path = l10n-dominicana
 	url = git@github.com:yasmanycastillo/l10n-dominicana.git
@@ -40,7 +14,7 @@
 	path = external-service-addons
 	url = git@github.com:indexa-git/external-service-addons.git
 	branch = 15.0
-[submodule "oca"]
-	path = oca
-	url = git@github.com:OCA/website.git
+[submodule "sync-addons"]
+	path = sync-addons
+	url = git@github.com:itpp-labs/sync-addons.git
 	branch = 15.0
